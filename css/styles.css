@@ -101,7 +101,7 @@ nav a {
 }
 
 .projects {
-  background: #fff;
+  background: #ECE9E6;
   color: #000;
 }
 
@@ -137,6 +137,22 @@ p + h3 {
   background: #985b52;
   padding: 10px;
   color: #fff;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
 }
 
 @media (min-width: 900px) {
