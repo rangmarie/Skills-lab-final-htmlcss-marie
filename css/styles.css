@@ -127,6 +127,11 @@ h3 ~ p {
   background: #a8c0ff;
   }
 
+.contact-info {
+  font-family: "Roboto Condensed";
+  text-decoration: none;
+}
+
 p + h3 {
   margin-top: 30px;
 }
